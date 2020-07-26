@@ -5,10 +5,11 @@ using namespace std;
 
 namespace MySTL
 {
+
     template <typename T>
-    class bidirectionaliterator
+    class iterator
     {
-        
+        T* ptr;
     };
 
 
